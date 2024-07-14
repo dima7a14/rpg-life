@@ -36,10 +36,11 @@ function OldApp() {
 	);
 }
 
-function App() {
+function App({ children }) {
 	return (
 		<div className="container max-w-full p-4 w-screen h-screen">
-			<Main />
+			{children}
+			{/* <Main /> */}
 		</div>
 	);
 }

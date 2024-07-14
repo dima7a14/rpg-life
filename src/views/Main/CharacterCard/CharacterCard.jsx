@@ -1,4 +1,7 @@
 import { Progress } from "@kobalte/core/progress";
+import { Link } from "@kobalte/core/link";
+import { Icon } from "solid-heroicons";
+import { pencilSquare } from "solid-heroicons/solid";
 
 import { Money } from "../../../common/Money";
 import "./CharacterCard.css";
@@ -13,8 +16,14 @@ export function CharacterCard() {
 
 	return (
 		<div className="text-center border-2 border-gray-800">
-			<h6 className="bg-gray-800 text-gray-100 font-semibold text-2xl mb-2 p-2">
+			<h6 className="bg-gray-800 text-gray-100 font-semibold text-2xl mb-2 p-2 relative">
 				Character info
+				<Link
+					href="/character"
+					className="absolute top-0 right-0 size-12 p-3 hover:bg-gray-700"
+				>
+					<Icon path={pencilSquare} />
+				</Link>
 			</h6>
 			<div className="flex flex-col gap-4">
 				<h2 className="font-display text-4xl">Dima</h2>

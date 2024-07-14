@@ -14,8 +14,10 @@
 	"dependencies": {
 		"@kobalte/core": "^0.13.3",
 		"@kobalte/tailwindcss": "^0.9.0",
+		"@solidjs/router": "^0.14.1",
 		"@tauri-apps/api": "^1",
 		"clsx": "^2.1.1",
+		"solid-heroicons": "^3.2.4",
 		"solid-js": "^1.7.8"
 	},
 	"devDependencies": {
