@@ -1,0 +1,10 @@
+.money {
+	/* vertical-align: middle;
+	padding: theme("padding.2");
+	border-width: theme("borderWidth.2");
+	border-color: theme("borderColor.amber.300");
+	border-radius: theme("borderRadius.full");
+	width: theme("width.12");
+	height: theme("height.12"); */
+	text-shadow: theme("backgroundColor.black") 1px 1px 2px;
+}
