@@ -36,11 +36,10 @@ function OldApp() {
 	);
 }
 
-function App({ children }) {
+function App(props) {
 	return (
 		<div className="container max-w-full p-4 w-screen h-screen">
-			{children}
-			{/* <Main /> */}
+			{props.children}
 		</div>
 	);
 }

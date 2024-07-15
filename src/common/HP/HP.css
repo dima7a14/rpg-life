@@ -1,0 +1,11 @@
+.hp-progress__fill {
+	height: theme("height.full");
+	background-color: theme("backgroundColor.red.600");
+	width: var(--kb-progress-fill-width);
+}
+
+.progress__track {
+	height: theme("height.6");
+	border-width: theme("borderWidth.2");
+	border-color: theme("borderColor.gray.800");
+}
