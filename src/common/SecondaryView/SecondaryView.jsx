@@ -4,7 +4,7 @@ import { arrowLeft } from "solid-heroicons/solid";
 
 export function SecondaryView(props) {
 	return (
-		<div className="size-full">
+		<div className="size-full flex flex-col flex-nowrap ">
 			<div className="bg-gray-800 text-center text-gray-100 font-semibold text-2xl relative p-2">
 				<Link
 					href="/"
@@ -14,7 +14,7 @@ export function SecondaryView(props) {
 				</Link>
 				<h2>{props.name}</h2>
 			</div>
-			{props.children}
+			<div className="flex-grow">{props.children}</div>
 		</div>
 	);
 }

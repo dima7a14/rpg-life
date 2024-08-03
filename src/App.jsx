@@ -14,7 +14,7 @@ function OldApp() {
 	}
 
 	return (
-		<div class="container max-w-full mx-auto p-4">
+		<div class="container max-w-full mx-auto">
 			<h1 class="text-3xl font-bold unerline">Welcome to RPG-Life!</h1>
 			<form
 				class="row"
@@ -38,7 +38,7 @@ function OldApp() {
 
 function App(props) {
 	return (
-		<div className="container max-w-full p-4 w-screen h-screen">
+		<div className="container max-w-full w-screen h-screen">
 			{props.children}
 		</div>
 	);
